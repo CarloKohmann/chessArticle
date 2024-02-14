@@ -1,0 +1,47 @@
+main {
+border: 2px solid #ccc;
+background-color: #f9f9f9;
+padding: 20px;
+margin: 20px auto;
+max-width: 800px; /* Larghezza massima del contenitore */
+}
+
+/* Stile per i titoli di primo livello */
+h1 {
+text-align: center;
+text-transform: uppercase;
+color: #9b793b;
+margin-bottom: 20px;
+}
+
+/* Stile per i titoli di secondo livello */
+h2 {
+text-align: center;
+color: #4CAF50;
+margin-bottom: 10px;
+}
+
+/* Stile per i titoli di terzo livello */
+h3 {
+padding-left: 20px;
+}
+
+/* Stile per i paragrafi */
+p {
+padding: 10px;
+text-indent: 20px;
+text-align: justify;
+letter-spacing: 1px;
+line-height: 1.5; /* Spaziatura delle righe */
+} 
+q {
+  font-style: italic;
+  color: #333; /* Dark gray color */
+  font-size: 1.2em; /* Adjust font size as needed */
+  margin: 20px; /* Add margin for spacing */
+  padding: 10px; /* Add padding for better readability */
+  border-left: 4px solid #4CAF50; /* Green left border */
+  background-color: #f9f9f9; /* Light gray background */
+  display: block; /* Display as block element */
+  quotes: "\201C" "\201D" "\2018" "\2019"; /* Set custom quote marks */
+}
